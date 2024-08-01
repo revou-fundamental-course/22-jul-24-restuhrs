@@ -1,0 +1,114 @@
+nav {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 10px;    
+    border-radius: 10px; 
+    background-color: skyblue; 
+}
+
+body {
+    font-family: arial;
+    text-align: center;
+}
+
+/* .logo-container {
+    display: flex;
+    align-items: center;
+} */
+
+/* .logo-icon {
+    background-size: cover;
+    
+} */
+
+/* .name-icon {
+    display: flex;
+} */
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+    color: rgb(25, 25, 190);
+    padding: 8px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-content {
+    display: flex;    
+}
+
+.main-content-item { 
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-banner {   
+    width: 100%;
+    padding-top: 57%;
+    background-image: url('../css/assets/images/testimoni.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;    
+    background-image: url('../css/assets/images/profil.jpg');
+    border-radius: 50%;
+    background-size: 40px;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 5px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: skyblue;
+    width: 320px; 
+    display: inline-block;
+}
+
+input, select {
+    width: 90%; 
+    padding: 10px;
+    margin: 8px; 
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(72, 130, 237);
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+
+

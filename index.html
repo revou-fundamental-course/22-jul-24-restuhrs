@@ -4,10 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Air Travel</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav>
+        <header>
+            <a href=""><img src="../22-jul-24-restuhrs/css/assets/images/logo.png" width="70px" height="40px"></a>
+            <a href=""><img src="../22-jul-24-restuhrs/css/assets/images/nama.png" width="90px" height="25px"></a>
+            <div class="logo-icon"></div>
+            <div class="name-icon"></div>
+        </header>
+
+        <section class="nav-container">
+            <a href="" class="nav-item">Home</a>   
+            <a href="#ourpackages" class="nav-item">Our Packages</a>         
+            <a href="#contact" class="nav-item">Contact Us</a> 
+        </section>
+    </nav>  
     
+    <main>
+        <article class="main-title">
+            <header>
+                <br>
+                <h1>Your Trusted Travel Agent's</h1>
+            </header>
+            
+            <p><i>"Your happiness is our happiness"</i></p>
+        </article>
+
+        <section class="main-content">
+            <article class="main-content-item">
+                <div class="main-content-banner"></div>
+                <p><i>"Liburan jadi menyenangkan bersama Travel Agentku."</i></p>
+                
+                <div class="main-item">
+                    <div class="item-icon"></div>                  
+                    <div>                           
+                        <h4>Leonardo DiCaprio</h4>
+                        <p>Aktor, 20</p>
+                    </div>
+                </div>
+            </article>
+
+            <div class="form-container">
+                <form id="contactForm" action="#">
+                    <h2 id="contact">Contact Us</h2>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." required>
+                    
+                    <label for="question">Question :</label>
+                    <input type="text" id="question" name="question" placeholder="Ask your question..">
+                
+                    <button type="submit" id="button">Send</button>
+                </form>
+            </div>
+        </section>
+        <br><br><br><br><br><br><br>
+        <article class="main-title">
+            <header>
+                <br><hr>
+                <h1 id="ourpackages" class="section-our-package">Our Packages</h1>
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <img src="../22-jul-24-restuhrs/css/assets/images/bdg.jpg" width="50%" height="50%">
+                        <br><br>
+                        <div class="text">BANDUNG</div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="../22-jul-24-restuhrs/css/assets/images/bali.jpg" width="50%" height="150%">
+                        <br><br>
+                        <div class="text">BALI</div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="../22-jul-24-restuhrs/css/assets/images/yogyakarta.jpg" width="50%" height="50%">
+                        <br><br>
+                        <div class="text">YOGYAKARTA</div>
+                    </div>
+                    <br>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </header>
+        </article>
+    </main>
+    
+    <footer>Copyright 2024 By Air Travel.</footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
